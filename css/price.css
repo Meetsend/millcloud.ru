@@ -1,0 +1,206 @@
+.info {
+  display: inline-block;
+  margin: 20px;
+}
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+  background-color: #fff;
+  font: 13px/20px normal Georgia, Arial, sans-serif;
+  color: #4F5155;
+}
+
+a {
+  color: #003399;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+h1 {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 1px solid #D0D0D0;
+  font-size: 19px;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+  padding: 14px 15px 10px 15px;
+}
+
+code {
+  font-family: Consolas, Monaco, Courier New, Courier, monospace;
+  font-size: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #D0D0D0;
+  color: #002166;
+  display: block;
+  margin: 14px 0 14px 0;
+  padding: 12px 10px 12px 10px;
+}
+#jelcol input {
+  vertical-align: middle;
+  height: 15px;
+  width: 20px;
+  margin:0px 5px 0 5px;
+}
+#jelcol button {
+  vertical-align: middle;
+  height: 24px;
+  width: 30px;
+}
+
+#body {
+  margin: 0 15px 0 15px;
+}
+
+p.footer {
+  text-align: right;
+  font-size: 11px;
+  border-top: 1px solid #D0D0D0;
+  line-height: 32px;
+  padding: 0 10px 0 10px;
+  margin: 20px 0 0 0;
+}
+
+#container {
+  margin: 10px;
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+}
+
+#trhead div{
+  text-align: left;
+  background: #6CC7EE;
+  color: #444;
+  height: 26px;
+  font-weight: bolder;
+  font-size: 10pt;
+}
+
+#trhead div:hover{
+  background: #bbb;
+  cursor: pointer;
+}
+#trhead:hover{
+  background: #444;
+}
+
+#upbar {
+  height: 200px;
+}
+
+#right {
+  display: inline-block;
+  width: auto;
+}
+#left {
+  display: inline-block;
+  width: 120px;
+  float: left;
+
+}
+
+.avatar {
+  display: block;
+  background-image: url('../img/users/usdef.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.tr {
+  background-color: #fff;
+  display: flex;
+  height: auto;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:flex-start;
+  border-width: 2px;
+  border-color: #444;
+  margin: 2px;
+}
+div.tr:hover .td, div.tr:hover .td1, div.tr:hover .tdcheck{
+  background-color: #C8EAF8;
+}
+
+ .td {
+   background-color: #fff;
+   align-items: flex-start;
+   padding-left: 5px;
+   flex-grow: 3;
+   height: inherit;
+   text-align:left;
+   margin: 1px;
+   flex-basis: 10px;
+ }
+
+ .td1 {
+   background-color: #fff;
+   align-items: flex-start;
+   flex-grow: 12;
+   padding-left: 5px;
+   height: auto;
+   text-align:left;
+   margin: 1px;
+   overflow-x:hidden;
+   flex-basis: 10px;
+   word-wrap:break-word;
+ }
+ .tdcheck {
+   background-color: #fff;
+   align-items: flex-start;
+   flex-grow: 1;
+   height: 26px;
+   text-align:left;
+   margin: 1px;
+   flex-basis: 10px;
+ }
+ .price {
+   background-color: #fff;
+   border-radius: 3px;
+   border-width: 1px;
+   border-color: #444;
+   overflow-x:scroll;
+   margin-top: 10px;
+ }
+
+ #art_zav {
+   min-width: 100px;
+ }
+ #short_capt {
+   min-width: 200px;
+ }
+ #space_vol {
+   min-width: 50px;
+ }
+ #size_vol {
+   min-width: 50px;
+ }
+ #place_vol {
+   min-width: 50px;
+ }
+ #add_mark {
+   min-width: 100px;
+ }
+ #endprice_vol {
+   min-width: 80px;
+ }
+ #free_vol {
+   min-width: 40px;
+ }
+ #reserve_vol {
+   min-width: 40px;
+ }
+ #trans_vol {
+   min-width: 40px;
+ }
+ #art_zav, #short_capt, #full_capt, #add_mark {
+   text-align: left;
+ }
+ #full_capt {
+   max-width: 300px;
+ }
+ #jelcol {
+   min-width: 85px;
+ }

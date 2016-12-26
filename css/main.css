@@ -1,0 +1,358 @@
+/* #00acf8 - голубой*/
+/* #B2E7FD - светло-голубой*/
+/* #A500F9 - сиреневый*/
+/* #E4B2FE - светло-сиреневый*/
+/* #CDFE00 - желтый*/
+/* #F0FFB3 - светло-желтый*/
+
+html {
+}
+
+body {
+  min-width: 1024px;
+  background-color: #d7f1fe;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* Кнопки*/
+.btn {
+  text-decoration:none; text-align:center;
+ padding:5px 25px;
+ border:solid 1px #00aef8;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 2px;
+ font:15px Arial, Helvetica, sans-serif;
+ color:#00aef8;
+ background:#ffffff;
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  }
+  .btn:hover{
+ padding:5px 25px;
+ border:solid 1px #00aef8;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 2px;
+ font:15px Arial, Helvetica, sans-serif;
+ color:#ffffff;
+ background:#00aef8;
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ }
+ .btn:active{
+ padding:5px 25px;
+ border:solid 1px #616161;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 2px;
+ font:15px Arial, Helvetica, sans-serif;
+ color:#ffffff;
+ background:#ffad4f;
+ -webkit-box-shadow:0px 0px 2px #ffd28a, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #ffd28a,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #ffd28a, inset 0px 0px 1px #ffffff;
+ }
+
+/* Текст*/
+.text {
+  margin: 10px 10px 10px 30px;
+  text-indent: 20px;
+  font-family: Arial, sans-serif;
+}
+/* Заголовки*/
+.zag {
+  font-size: 18pt;
+  margin-left: 30px;
+}
+.content h2 {
+  font-family: 'Play', sans-serif;
+}
+.sdiv h4 {
+  font-family: 'Play', sans-serif;
+  margin: 5px;
+}
+
+.h1 {
+  font-size: 22pt;
+}
+.h2 {
+  font-size: 18pt;
+}
+.h3 {
+  font-size: 14pt;
+}
+.h4 {
+  font-size: 10pt;
+}
+.h5 {
+  font-size: 21pt;
+}
+/* Cсылки*/
+
+/* Подсказки*/
+
+/* МЕНЮ*/
+.up {
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+  background-color: #fff;
+  margin: -10px 20px 0 20px;
+}
+/* Статус-меню*/
+nav {
+  text-align: right;
+  margin: 10px 0px 10px 0px;
+}
+nav a{
+  color: #00acf8;
+  text-align: center;
+  font-size: 10pt;
+  font-family: Arial,sans-serif;
+  margin-right: 20px;
+}
+nav a:hover{
+  color: #444;
+}
+
+/* Основное меню*/
+.bgmenu {
+  background-color: #00acf8;
+  padding-bottom: 5px;
+  height: auto;
+  width: 100%;
+}
+.imglogo {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.textlogo {
+  margin: 23px 0px 5px 5px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Play', sans-serif;
+  text-decoration: none;
+}
+.textlogin {
+  margin: 0px 0px 5px 5px;
+  display: inline-block;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Play', sans-serif;
+  text-decoration: none;
+}
+.menu {
+  vertical-align: top;
+  margin: 36px 30px 5px 0px;
+  display: inline-block;
+}
+.menu a {
+  margin-left: 20px;
+  transition: 0.2s;
+  color: #fff;
+  font-size: 14pt;
+  font-weight: 400;
+  font-family: 'Play', sans-serif;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #fd6;
+}
+.ablog {
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1px dashed;
+}
+.alogin {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+/* БЛОКИ*/
+
+/* Контент блок*/
+.content {
+  width: 100%;
+  height: auto;
+  padding: 30px 0 30px 0;
+}
+
+/* Ведущий блок*/
+.mdiv {
+
+}
+/* Обычный блок*/
+.sdiv {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 320px;
+  height: 260px;
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.upframe {
+  display: block;
+  background-color: #00acf8;
+  height: 50px;
+  width: auto;
+  padding-top: 10px;
+  font-family: Play, sans-serif;
+  font-size: 14pt;
+  font-weight: bolder;
+  color: #fff;
+}
+.txt {
+  text-align: left;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+#blocks {
+  background-image: url('../../img/blocks.png');
+  background-color: #fff;
+}
+#partners {
+  background-color: #F0FFB3;
+}
+#address {
+  background-color: #B2E7FD;
+}
+.partner {
+  display: inline-block;
+  margin-right: 15px;
+}
+.partner img{
+width: 100px;
+height: 100px;
+}
+
+/* Карусель*/
+.fullkar {
+  font-family: Arial, sans-serif;
+  margin: 32px 0px 30px 0px;
+  display: block;
+  height: auto;
+  width: auto;
+  min-width: 1024px;
+}
+.rulkar {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  opacity: 0.7;
+  margin-bottom: 150px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.rulkar:hover {
+  opacity: 1;
+}
+.r {
+  background-image: url('../../img/r.png');
+}
+.l {
+  background-image: url('../../img/l.png');
+}
+.slider-box {
+  display: inline-block;
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+  background-color: #fff;
+  border-radius: 3px;
+  width:730px;
+  height: 355px;
+  overflow:hidden;
+}
+.slider {
+  position:relative;
+  background-color: #fff;
+  width:10000px;
+  height: 355px;
+}
+.kar {
+  width:730px;
+  height: 355px;
+  background-color: #fff;
+  text-align: left;
+  vertical-align: top;
+  z-index:0;
+  margin-right: 3px;
+  float: left;
+}
+.inbx {
+  margin-right: 20px;
+  float: left;
+  display: inline-block;
+  max-width: 360px;
+  width: auto;
+  height: auto;
+}
+.inbx img{
+  margin: 40px 0 0 20px;
+}
+.kar a{
+  color: #00acf8;
+}
+.karzag {
+  padding: 5px 0px 5px 30px;
+  margin-top: 40px;
+  font-family: Play,sans-serif;
+  font-size: 21pt;
+  background-color: #00acf8;
+}
+.karbtn {
+  margin:30px 0px 0px 30px;
+}
+#k1 {
+}
+#k2, #k3, #k4 {
+  display: none;
+}
+
+/* ФОРМЫ*/
+
+/* Форма логина и регистрации*/
+.formup {
+  background-color: #00acf8;
+  padding: 10px;
+}
+
+#logined {
+  box-shadow: 0px 0px 1px;
+  width: 500px;
+  padding:0px 0 15px 0;
+  border-radius:3px;
+  background:#fff;
+}
+#regist {
+  box-shadow: 0px 0px 1px;
+  width: 500px;
+  padding:10px 0 15px 0;border-radius:3px;
+  background:#fff;
+  font-family: Arial,sans-serif;
+}
+
+/* Футер*/
+.footer {
+  width: 100%;
+  background-color: #B2E7FD;
+}
+.cprt {
+padding: 20px 0 20px 0;
+font-size: 10pt;
+font-family: Arial,sans-serif;
+}
+.cprt a {
+  text-decoration: none;
+  color: #fff;
+}

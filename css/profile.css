@@ -1,0 +1,57 @@
+
+body {
+  background-color: #fff;
+  font: 13px/20px normal Georgia, Arial, sans-serif;
+  color: #222;
+}
+.editprofile {
+    margin:20px;
+    display: inline-block;
+}
+
+.unvisible {
+  display: none;
+}
+.visible {
+  display: inline-block;
+}
+
+.trhead td:hover{
+  background: #68AECC;
+  cursor: pointer;
+}
+
+.info {
+  display: inline-block;
+  margin: 20px;
+}
+
+#up {
+  display: block;
+  width: auto;
+}
+#down {
+  display: block;
+  width: 500px;
+  float: left;
+
+}
+div#up a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px dashed #999;
+}
+div#up a:hover {
+  color: #68AECC;
+  text-decoration: none;
+  border-bottom: 1px dashed #68AECC;
+  margin-left: 1px;
+}
+
+.avatar {
+  display: block;
+  background-image: url('../img/users/usdef.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}

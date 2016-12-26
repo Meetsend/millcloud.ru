@@ -1,0 +1,28 @@
+.uptab {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bolder;
+  color: #888;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+a.uptab:hover{
+  background-color: #B2E7FD;
+}
+.actboard {
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00acf8;
+  background: #fff;
+}
+
+.settab {
+  background-color: #00acf8;
+  color: #fff;
+}
+.settab:hover{
+  background-color: #00acf8;
+}
